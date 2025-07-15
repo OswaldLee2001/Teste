@@ -5,22 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Residencial Bela Vista</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body class="bg-gray-50 text-gray-800">
 
   <!-- Cabeçalho com Logotipo -->
+  <header class="flex items-center justify-between px-6 py-4 bg-white shadow">
+    <img src="LOGOTIPO OFICIAL/LOGOTIPO OFICIAL_BELA VISTA RESIDENCIAL.png" alt="Residencial Bela Vista" class="h-32">
+    <div class="flex space-x-4 text-gray-700 text-2xl">
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram hover:text-pink-600"></i></a>
+      <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest hover:text-red-600"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fab fa-youtube hover:text-red-700"></i></a>
+    </div>
+  </header>
 
-<header class="flex items-center justify-between px-6 py-4 bg-white shadow">
-  <img src="LOGOTIPO OFICIAL/LOGOTIPO OFICIAL_BELA VISTA RESIDENCIAL.png" alt="Residencial Bela Vista" class="h-32">
-  <div class="flex space-x-4 text-gray-700 text-2xl">
-    <a href="#" aria-label="Instagram"><i class="fab fa-instagram hover:text-pink-600"></i></a>
-    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest hover:text-red-600"></i></a>
-    <a href="#" aria-label="YouTube"><i class="fab fa-youtube hover:text-red-700"></i></a>
-  </div>
-</header>
-
+	<hr>
 
   <!-- Hero Section -->
   <section class="relative">
@@ -34,29 +33,35 @@
     </div>
   </section>
 
-  <!-- Texto Institucional -->
-  <section class="py-12 px-4 md:px-12 lg:px-24 text-center">
-	<img src="Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/2.jpg"
-    <p class="max-w-3xl mx-auto mb-6 text-gray-700">Descubra um novo conceito de morar com conforto, praticidade e vista privilegiada. O Residencial Bela Vista foi planejado para oferecer uma experiência única de qualidade de vida, com ambientes integrados, áreas comuns completas e localização estratégica.</p>
+  <!-- Texto Institucional com fundo da imagem 3.jpg -->
+  <section class="relative py-12 px-4 md:px-12 lg:px-24 text-center text-white bg-cover bg-center" style="background-image: url('Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/5.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 max-w-3xl mx-auto">
+      <p class="mb-6">
+        Descubra um novo conceito de morar com conforto, praticidade e vista privilegiada. O Residencial Bela Vista foi planejado para oferecer uma experiência única de qualidade de vida, com ambientes integrados, áreas comuns completas e localização estratégica.
+      </p>
+    </div>
   </section>
 
-  <!-- Destaques -->
-  <section class="py-12 px-4 md:px-12 lg:px-24 bg-gray-100">
-    <h2 class="text-3xl font-bold text-center mb-8">Destaques do Empreendimento</h2>
-    <ul class="max-w-2xl mx-auto space-y-3 text-left text-gray-700">
-      <li>• Apartamentos de 2 e 3 quartos com suíte</li>
-      <li>• Varanda gourmet com vista panorâmica</li>
-      <li>• Área de lazer com piscina, academia, salão de festas e espaço kids</li>
-      <li>• Vagas de garagem cobertas e segurança 24h</li>
-      <li>• Sustentabilidade: captação de água da chuva e energia solar nas áreas comuns</li>
-    </ul>
+  <!-- Destaques com imagem de fundo (usando 3.jpg) -->
+  <section class="relative py-12 px-4 md:px-12 lg:px-24 bg-cover bg-center text-white" style="background-image: url('Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/7.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10">
+      <h2 class="text-3xl font-bold text-center mb-8">Destaques do Empreendimento</h2>
+      <ul class="max-w-2xl mx-auto space-y-3 text-left">
+        <li>• Apartamentos de 2 e 3 quartos com suíte</li>
+        <li>• Varanda gourmet com vista panorâmica</li>
+        <li>• Área de lazer com piscina, academia, salão de festas e espaço kids</li>
+        <li>• Vagas de garagem cobertas e segurança 24h</li>
+        <li>• Sustentabilidade: captação de água da chuva e energia solar nas áreas comuns</li>
+      </ul>
+    </div>
   </section>
-
   <!-- Localização -->
   <section class="py-12 px-4 md:px-12 lg:px-24">
     <h2 class="text-3xl font-bold text-center mb-4">Localização Privilegiada</h2>
-    <p class="text-right text-gray-700 mb-2">Avenida InfoIdeias Software, 100</p>
-    <p class="text-right text-gray-700">No coração da cidade, com fácil acesso a comércios, escolas, hospitais e transporte público.</p>
+    <p class="text-center text-gray-700 mb-2">Avenida InfoIdeias Software, 100</p>
+    <p class="text-center text-gray-700">No coração da cidade, com fácil acesso a comércios, escolas, hospitais e transporte público.</p>
   </section>
 
   <!-- Formulário de Contato -->
