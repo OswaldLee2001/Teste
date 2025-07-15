@@ -3,10 +3,13 @@ A proposta original possui uma abordagem interessante utilizando de um estilo va
 
 
 ### 📷 Imagens
+![Nova versão pop-up] (popup.jpeg)
 ![Imagem da Entrega](entrega.png)
+![Landing page final] (landing_page_final.png)
+
 
 ### 📄 Landing Page
-![Tela 1](1.png)  
-![Tela 2](2.png)  
-![Tela 3](3.png)  
-![Tela 4](4.png)
+![Tela 1](Landing-Page/1.png)  
+![Tela 2](Landing-Page/2.png)  
+![Tela 3](Landing-Page/3.png)  
+![Tela 4](Landing-Page/4.png)
