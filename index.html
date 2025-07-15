@@ -3,68 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Landing Page</title>
+  <title>Residencial Bela Vista</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50 text-gray-800">
+
+  <!-- Cabeçalho com Logotipo -->
+  <header class="flex items-center justify-between px-6 py-4 bg-white shadow">
+    <img src="Imagens/IMAGENS/Obrigatorio/logo.png" alt="Residencial Bela Vista" class="h-12">
+    <div class="flex space-x-4">
+      <a href="#"><img src="Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/instagram.png" alt="Instagram" class="h-6"></a>
+      <a href="#"><img src="Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/pinterest.png" alt="Pinterest" class="h-6"></a>
+      <a href="#"><img src="Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/youtube.png" alt="YouTube" class="h-6"></a>
+    </div>
+  </header>
 
   <!-- Hero Section -->
   <section class="relative">
     <img src="Imagens/IMAGENS/Obrigatorio/0-IMAGEM PRINCIPAL.jpg" alt="Imagem Principal" class="w-full h-[70vh] object-cover" />
     <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
       <div class="text-center text-white">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">Título da Landing Page</h1>
-        <p class="mb-6 text-lg md:text-xl">Descrição curta e impactante que explica a proposta de valor.</p>
-        <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full">Chamada para ação</a>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Residencial Bela Vista</h1>
+        <p class="mb-6 text-lg md:text-xl">O lugar certo para viver bem.</p>
+        <a href="#contato" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full">Quero saber mais</a>
       </div>
     </div>
   </section>
 
-  <!-- Seção de Destaques -->
-  <section class="py-12 px-4 md:px-12 lg:px-24">
-    <h2 class="text-3xl font-bold text-center mb-8">Destaques</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-white rounded-lg shadow p-4">
-        <img src="Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/1.jpg" alt="Destaque 1" class="rounded mb-4 object-cover h-48 w-full" />
-        <h3 class="font-semibold text-xl mb-2">Título 1</h3>
-        <p class="text-gray-600">Breve descrição do destaque número 1.</p>
-      </div>
-      <div class="bg-white rounded-lg shadow p-4">
-        <img src="Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/2.jpg" alt="Destaque 2" class="rounded mb-4 object-cover h-48 w-full" />
-        <h3 class="font-semibold text-xl mb-2">Título 2</h3>
-        <p class="text-gray-600">Breve descrição do destaque número 2.</p>
-      </div>
-      <div class="bg-white rounded-lg shadow p-4">
-        <img src="Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/3.jpg" alt="Destaque 3" class="rounded mb-4 object-cover h-48 w-full" />
-        <h3 class="font-semibold text-xl mb-2">Título 3</h3>
-        <p class="text-gray-600">Breve descrição do destaque número 3.</p>
-      </div>
-    </div>
+  <!-- Texto Institucional -->
+  <section class="py-12 px-4 md:px-12 lg:px-24 text-center">
+    <p class="max-w-3xl mx-auto mb-6 text-gray-700">Descubra um novo conceito de morar com conforto, praticidade e vista privilegiada. O Residencial Bela Vista foi planejado para oferecer uma experiência única de qualidade de vida, com ambientes integrados, áreas comuns completas e localização estratégica.</p>
   </section>
 
-  <!-- Seção Sobre -->
+  <!-- Destaques -->
   <section class="py-12 px-4 md:px-12 lg:px-24 bg-gray-100">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-4">Sobre o Projeto</h2>
-      <p class="text-gray-700 mb-6">Explique aqui mais detalhes sobre o projeto, produto ou serviço oferecido. Destaque os benefícios e diferenciais que tornam sua oferta única.</p>
-      <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full">Saiba mais</a>
-    </div>
+    <h2 class="text-3xl font-bold text-center mb-8">Destaques do Empreendimento</h2>
+    <ul class="max-w-2xl mx-auto space-y-3 text-left text-gray-700">
+      <li>• Apartamentos de 2 e 3 quartos com suíte</li>
+      <li>• Varanda gourmet com vista panorâmica</li>
+      <li>• Área de lazer com piscina, academia, salão de festas e espaço kids</li>
+      <li>• Vagas de garagem cobertas e segurança 24h</li>
+      <li>• Sustentabilidade: captação de água da chuva e energia solar nas áreas comuns</li>
+    </ul>
   </section>
 
-  <!-- Galeria -->
+  <!-- Localização -->
   <section class="py-12 px-4 md:px-12 lg:px-24">
-    <h2 class="text-3xl font-bold text-center mb-8">Galeria</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <img src="Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/4.jpg" alt="Galeria 1" class="rounded object-cover h-40 w-full" />
-      <img src="Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/5.jpg" alt="Galeria 2" class="rounded object-cover h-40 w-full" />
-      <img src="Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/6.jpg" alt="Galeria 3" class="rounded object-cover h-40 w-full" />
-      <img src="Imagens/IMAGENS/IMAGENS EXTRAS (USO OPCIONAL)/7.jpg" alt="Galeria 4" class="rounded object-cover h-40 w-full" />
-    </div>
+    <h2 class="text-3xl font-bold text-center mb-4">Localização Privilegiada</h2>
+    <p class="text-center text-gray-700 mb-2">Avenida InfoIdeias Software, 100</p>
+    <p class="text-center text-gray-700">No coração da cidade, com fácil acesso a comércios, escolas, hospitais e transporte público.</p>
+  </section>
+
+  <!-- Formulário de Contato -->
+  <section id="contato" class="py-12 px-4 md:px-12 lg:px-24 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-8">Agende sua visita</h2>
+    <form class="max-w-2xl mx-auto grid grid-cols-1 gap-4">
+      <input type="text" placeholder="Nome" class="border rounded p-3 w-full" required>
+      <input type="email" placeholder="E-mail" class="border rounded p-3 w-full" required>
+      <input type="tel" placeholder="Telefone" class="border rounded p-3 w-full" required>
+      <textarea placeholder="Mensagem" class="border rounded p-3 w-full h-32" required></textarea>
+      <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full">Quero saber mais</button>
+    </form>
   </section>
 
   <!-- Rodapé -->
   <footer class="bg-gray-800 text-white text-center py-6">
-    <p>&copy; 2025 Nome do Projeto. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Residencial Bela Vista. Todos os direitos reservados.</p>
   </footer>
 
 </body>
